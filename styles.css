@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display&display=swap");
+
+/* Gradient from https://cssgradient.io */
+
+/* Your Awesome Styling */
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(5, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 33%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
+}
+
+main {
+  font-family: "Playfair Display", serif;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  color: white;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+
+span {
+  font-size: 2.5em;
+}
+
+kbd {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 6em;
+  color: rgba(0, 212, 255, 1);
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.53);
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  transform: scale(1.05);
+}
+
+.card:focus {
+  border-radius: 0.5em;
+  color: white;
+  transform: scale(1.05);
+  background-color: #ddd;
+  background-blend-mode: normal;
+  transition: transform 0.2s cubic-bezier(0.5, 0.1, 0.2, 1.1),
+    background 0.3s ease;
+  box-shadow: 0 0.62em 1em rgba(0, 0, 0, 0.23),
+    0 1.6em 3em -0.5em rgba(0, 0, 0, 0.43), 0 0 0 0.25em #eee;
+}
+
+[data-key="76"] {
+  background-image: url("Assets/lightningstrike.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+[data-key="82"] {
+  background-image: url("Assets/rain.gif");
+  background-position: cover;
+  text-align: center;
+  width: 350px;
+  height: 150px;
+}
+
+[data-key="66"] {
+  background-image: url("Assets/breeze.gif");
+  background-position: cover;
+  text-align: center;
+  width: 350px;
+  height: 150px;
+}
+
+[data-key="72"] {
+  background-image: url("Assets/hail.gif");
+  text-align: center;
+  width: 350px;
+  height: 150px;
+}
+
+[data-key="70"] {
+  background-image: url("Assets/fire.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+[data-key="79"] {
+  background-image: url("Assets/ocean.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+[data-key="67"] {
+  background-image: url("Assets/creek.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+[data-key="84"] {
+  background-image: url("Assets/thunderclap.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
+
+[data-key="87"] {
+  background-image: url("Assets/waterfall.gif");
+  width: 350px;
+  height: 150px;
+  text-align: center;
+}
